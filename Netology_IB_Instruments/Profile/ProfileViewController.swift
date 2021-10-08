@@ -15,7 +15,6 @@ class ProfileViewController: UIViewController {
 
         if  let profileView = Bundle.main.loadNibNamed(profileViewName, owner: nil, options: nil)?.first as? ProfileView {
             profileView.frame = CGRect(x: 15, y: 50, width: view.bounds.width - 30, height: 300)
-           // profileView.autoresizingMask = []
             view.addSubview(profileView)
         }
         
